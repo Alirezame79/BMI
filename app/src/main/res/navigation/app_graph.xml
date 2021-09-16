@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_graph"
+    app:startDestination="@id/input">
+
+    <fragment
+        android:id="@+id/input"
+        android:name="com.method.bmi.view.Input"
+        android:label="Input" >
+        <action
+            android:id="@+id/action_input_to_result"
+            app:destination="@id/result"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popExitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/result"
+        android:name="com.method.bmi.view.Result"
+        android:label="Result" />
+</navigation>

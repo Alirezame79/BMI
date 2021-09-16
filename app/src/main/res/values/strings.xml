@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BMI</string>
+
+    <string name="height">Height (cm)</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="athlete">Athlete</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="result">Result</string>
+    <string name="bmi">BMI is\t</string>
+    <string name="normal_weight">Normal weight is\t</string>
+    <string name="suggested_calories">Suggested calorie is\t</string>
+    <string name="choose_gender">Choose your gender</string>
+    <string name="fill_blanks">Weight or Height box is blank</string>
+    <string name="bmi_stand_for"><b>BMI</b>\n<i>Body Mass Index</i></string>
+    <string name="current_weight">Weight:\t</string>
+    <string name="current_height">Height:\t</string>
+
+</resources>
